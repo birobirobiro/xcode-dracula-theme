@@ -1,17 +1,22 @@
 {
-  "name": "Xcode Default (Dark)",
+  "name": "Xcode Dracula Theme",
   "type": "dark",
   "colors": {
+    // Activity Bar
     "activityBar.background": "#2a2c2f",
     "activityBar.border": "#000000",
     "activityBar.foreground": "#dfdfdf",
+    // Breadcrumb
     "breadcrumb.background": "#1c1f21",
     "breadcrumb.focusForeground": "#dcdddd",
     "breadcrumb.foreground": "#dcdddd",
+    // Debug
     "debugIcon.breakpointCurrentStackframeForeground": "#007aff22",
     "debugIcon.breakpointForeground": "#007aff22",
+    // Diff Editor
     "diffEditor.insertedTextBackground": "#3cff5518",
     "diffEditor.removedTextBackground": "#ff504418",
+    // Editor
     "editor.background": "#1F1F24",
     "editor.findMatchBackground": "#F1FA8C",
     "editor.findMatchHighlightBackground": "#545558",
@@ -43,11 +48,17 @@
     "editorWarning.foreground": "#f5c443",
     "editorWhitespace.foreground": "#53606e",
     "editorWidget.background": "#303030",
+    // Editor Inlay Hint
+    "editorInlayHint.foreground": "#A0A0A0",
+    "editorInlayHint.background": "#1C1C1C",
+    // Errors and Warnings
     "errorForeground": "#FF5555",
     "focusBorder": "#35628b",
     "foreground": "#F8F8F2",
+    // Git Decorations
     "gitDecoration.conflictingResourceForeground": "#FF5555",
     "gitDecoration.ignoredResourceForeground": "#dfdfdf55",
+    // List
     "list.activeSelectionBackground": "#3F4F74",
     "list.activeSelectionForeground": "#dfdfdf",
     "list.focusBackground": "#6272A4",
@@ -55,6 +66,7 @@
     "list.highlightForeground": "#f5c443",
     "list.hoverBackground": "#00000000",
     "list.inactiveSelectionBackground": "#4f5153",
+    // Minimap
     "minimap.errorHighlight": "#FF5555",
     "minimap.findMatchHighlight": "#F1FA8C",
     "minimap.selectionHighlight": "#646f83",
@@ -62,7 +74,9 @@
     "minimapGutter.addedBackground": "#50FA7B",
     "minimapGutter.deletedBackground": "#FF5555",
     "minimapGutter.modifiedBackground": "#BD93F9",
+    // Panel
     "panel.border": "#000000",
+    // Peek View
     "peekView.border": "#6272A4",
     "peekViewEditor.background": "#292a30",
     "peekViewEditor.matchHighlightBackground": "#545558",
@@ -75,10 +89,13 @@
     "peekViewTitle.background": "#2a2c2f",
     "peekViewTitleDescription.foreground": "#6699ff",
     "peekViewTitleLabel.foreground": "#dfdfdf",
+    // Search Editor
     "searchEditor.findMatchBackground": "#F1FA8C",
+    // Sidebar
     "sideBar.background": "#2a2c2f",
     "sideBar.border": "#000000",
     "sideBarSectionHeader.background": "#00000000",
+    // Status Bar
     "statusBar.background": "#1c1f21",
     "statusBar.border": "#000000",
     "statusBar.debuggingBackground": "#1c1f21",
@@ -88,17 +105,33 @@
     "statusBar.noFolderBackground": "#1c1f21",
     "statusBar.noFolderBorder": "#000000",
     "statusBar.noFolderForeground": "#dcdddd",
+    // Tabs
     "tab.activeBackground": "#1F1F24",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#26282b",
     "tab.inactiveBackground": "#26282b",
     "tab.inactiveForeground": "#9a9c9d",
+    // Text Link
     "textLink.activeForeground": "#6699ff",
     "textLink.foreground": "#6699ff",
+    // Title Bar
     "titleBar.activeBackground": "#383a3d",
     "titleBar.activeForeground": "#b7b8bb",
     "titleBar.border": "#26282b",
-    "meta.type.annotation": "#D0A8FF"
+    // Meta
+    "meta.type.annotation": "#D0A8FF",
+    // Badge
+    "badge.background": "#FFC799",
+    "badge.foreground": "#000",
+    // Button
+    "button.background": "#FFC799",
+    "button.hoverBackground": "#FFCFA8",
+    "button.foreground": "#000",
+    // Scrollbar
+    "scrollbarSlider.background": "#34343480",
+    "scrollbarSlider.hoverBackground": "#343434",
+    // Settings
+    "settings.modifiedItemIndicator": "#FFC799"
   },
   "tokenColors": [
     {
