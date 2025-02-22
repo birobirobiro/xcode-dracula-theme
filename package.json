@@ -1,0 +1,33 @@
+{
+  "name": "xcode-dracula-theme",
+  "displayName": "Xcode Dracula Theme",
+  "description": "Xcode Dracula Theme",
+  "icon": "images/icon.png",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "publisher": "birobirobiro",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/birobirobiro/xcode-dracula-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xcode Dracula Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xCodeDracula.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
