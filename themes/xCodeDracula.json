@@ -6,6 +6,8 @@
     "activityBar.background": "#2a2c2f",
     "activityBar.border": "#000000",
     "activityBar.foreground": "#dfdfdf",
+    "activityBarBadge.background": "#FFC799",
+    "activityBarBadge.foreground": "#000000",
     // Breadcrumb
     "breadcrumb.background": "#1c1f21",
     "breadcrumb.focusForeground": "#dcdddd",
@@ -18,12 +20,12 @@
     "diffEditor.removedTextBackground": "#ff504418",
     // Editor
     "editor.background": "#1F1F24",
+    "editor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#292A2F",
+    "editor.selectionBackground": "#1757BE33",
+    "editor.hoverHighlightBackground": "#2c5392",
     "editor.findMatchBackground": "#F1FA8C",
     "editor.findMatchHighlightBackground": "#545558",
-    "editor.foreground": "#dfdfe0",
-    "editor.hoverHighlightBackground": "#2c5392",
-    "editor.lineHighlightBackground": "#44475A",
-    "editor.selectionBackground": "#646f8366",
     "editor.snippetTabstopHighlightBackground": "#007aff22",
     "editor.stackFrameHighlightBackground": "#007aff22",
     "editorCodeLens.foreground": "#dfdfdf77",
@@ -36,8 +38,8 @@
     "editorGutter.modifiedBackground": "#BD93F9",
     "editorIndentGuide.activeBackground": "#00000000",
     "editorIndentGuide.background": "#00000000",
-    "editorLineNumber.activeForeground": "#dfdfdf",
-    "editorLineNumber.foreground": "#dfdfdf55",
+    "editorLineNumber.activeForeground": "#FFFFFF",
+    "editorLineNumber.foreground": "#FFFFFF55",
     "editorLink.activeForeground": "#6699ff",
     "editorOverviewRuler.addedForeground": "#50FA7B",
     "editorOverviewRuler.deletedForeground": "#FF5555",
@@ -46,14 +48,15 @@
     "editorOverviewRuler.modifiedForeground": "#BD93F9",
     "editorOverviewRuler.warningForeground": "#f5c443",
     "editorWarning.foreground": "#f5c443",
-    "editorWhitespace.foreground": "#53606e",
+    "editorWhitespace.foreground": "#646E83",
     "editorWidget.background": "#303030",
     // Editor Inlay Hint
     "editorInlayHint.foreground": "#A0A0A0",
     "editorInlayHint.background": "#1C1C1C",
     // Errors and Warnings
     "errorForeground": "#FF5555",
-    "focusBorder": "#35628b",
+    "focusBorder": "#335274",
+    // General Foreground
     "foreground": "#F8F8F2",
     // Git Decorations
     "gitDecoration.conflictingResourceForeground": "#FF5555",
@@ -66,6 +69,7 @@
     "list.highlightForeground": "#f5c443",
     "list.hoverBackground": "#00000000",
     "list.inactiveSelectionBackground": "#4f5153",
+    "list.errorForeground": "#FF5555",
     // Minimap
     "minimap.errorHighlight": "#FF5555",
     "minimap.findMatchHighlight": "#F1FA8C",
@@ -92,32 +96,37 @@
     // Search Editor
     "searchEditor.findMatchBackground": "#F1FA8C",
     // Sidebar
-    "sideBar.background": "#2a2c2f",
+    "sideBar.background": "#222223",
     "sideBar.border": "#000000",
     "sideBarSectionHeader.background": "#00000000",
+    "sideBarSectionHeader.foreground": "#dfdfdf",
+    "sideBarTitle.foreground": "#dfdfdf",
     // Status Bar
-    "statusBar.background": "#1c1f21",
+    "statusBar.background": "#202020",
     "statusBar.border": "#000000",
-    "statusBar.debuggingBackground": "#1c1f21",
+    "statusBar.debuggingBackground": "#202020",
     "statusBar.debuggingBorder": "#000000",
-    "statusBar.debuggingForeground": "#dcdddd",
-    "statusBar.foreground": "#dcdddd",
-    "statusBar.noFolderBackground": "#1c1f21",
+    "statusBar.debuggingForeground": "#FFF",
+    "statusBar.foreground": "#FFF",
+    "statusBar.noFolderBackground": "#202020",
     "statusBar.noFolderBorder": "#000000",
-    "statusBar.noFolderForeground": "#dcdddd",
+    "statusBar.noFolderForeground": "#FFF",
     // Tabs
-    "tab.activeBackground": "#1F1F24",
+    "tab.activeBackground": "#292929",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#26282b",
     "tab.inactiveBackground": "#26282b",
     "tab.inactiveForeground": "#9a9c9d",
+    "tab.activeBorder": "#FFC799",
     // Text Link
     "textLink.activeForeground": "#6699ff",
     "textLink.foreground": "#6699ff",
     // Title Bar
-    "titleBar.activeBackground": "#383a3d",
-    "titleBar.activeForeground": "#b7b8bb",
+    "titleBar.activeBackground": "#21222C",
+    "titleBar.activeForeground": "#F8F8F2",
     "titleBar.border": "#26282b",
+    "titleBar.inactiveBackground": "#191A21",
+    "titleBar.inactiveForeground": "#6272A4",
     // Meta
     "meta.type.annotation": "#D0A8FF",
     // Badge
@@ -128,10 +137,26 @@
     "button.hoverBackground": "#FFCFA8",
     "button.foreground": "#000",
     // Scrollbar
-    "scrollbarSlider.background": "#34343480",
-    "scrollbarSlider.hoverBackground": "#343434",
+    "scrollbarSlider.background": "#44444580",
+    "scrollbarSlider.hoverBackground": "#444445",
     // Settings
-    "settings.modifiedItemIndicator": "#FFC799"
+    "settings.modifiedItemIndicator": "#FFC799",
+    // Icons and Inputs
+    "icon.foreground": "#dfdfdf",
+    "input.background": "#1c1f21",
+    // Global selection (outside the editor)
+    "selection.background": "#646f83",
+    // Bracket Pair Colorization
+    "editorBracketHighlight.foreground1": "#8BE9FD",
+    "editorBracketHighlight.foreground2": "#50FA7B",
+    "editorBracketHighlight.foreground3": "#FF79C6",
+    "editorBracketHighlight.foreground4": "#BD93F9",
+    "editorBracketHighlight.foreground5": "#F1FA8C",
+    "editorBracketHighlight.foreground6": "#FFB86C",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF5555",
+    // Hover Widget
+    "editorHoverWidget.background": "#444445",
+    "editorHoverWidget.border": "#373737"
   },
   "tokenColors": [
     {
@@ -238,7 +263,8 @@
     },
     {
       "scope": [
-        "variable.other.constant, meta.definition.variable"
+        "variable.other.constant",
+        "meta.definition.variable"
       ],
       "settings": {
         "foreground": "#FFFFFF"
@@ -528,6 +554,88 @@
       ],
       "settings": {
         "foreground": "#83C9BC"
+      }
+    },
+    // JSON Keys (Level 0 to 8)
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#BD93F9"
       }
     }
   ]
