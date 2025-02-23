@@ -122,7 +122,7 @@
     "textLink.activeForeground": "#6699ff",
     "textLink.foreground": "#6699ff",
     // Title Bar
-    "titleBar.activeBackground": "#21222C",
+    "titleBar.activeBackground": "#222223",
     "titleBar.activeForeground": "#F8F8F2",
     "titleBar.border": "#26282b",
     "titleBar.inactiveBackground": "#191A21",

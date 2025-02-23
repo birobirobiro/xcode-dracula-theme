@@ -2,6 +2,13 @@
 
 All notable changes to the Xcode Dracula Theme extension will be documented in this file.
 
+## [1.2.2] - 2025-02-24
+
+### Changed
+
+- Updated README
+- Updated `titleBar.activeBackground` color
+
 ## [1.2.1] - 2025-02-23
 
 ### Changed
