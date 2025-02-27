@@ -125,8 +125,8 @@
     "titleBar.activeBackground": "#222223",
     "titleBar.activeForeground": "#F8F8F2",
     "titleBar.border": "#26282b",
-    "titleBar.inactiveBackground": "#2a2c2f",
-    "titleBar.inactiveForeground": "#6272A4",
+    "titleBar.inactiveBackground": "#202020",
+    "titleBar.inactiveForeground": "#dfdfdf",
     // Meta
     "meta.type.annotation": "#D0A8FF",
     // Badge
